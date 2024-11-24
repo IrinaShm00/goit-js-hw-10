@@ -5,6 +5,47 @@
   margin: 0 auto;
   padding: 0 16px;
 }
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+ 
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+margin: 0 10px;
+
+}
+.value {
+  font-size: 48px;
+  font-weight: normal;
+  color: #000;
+  width: 100%;
+  text-align: center;
+}
+.label {
+  font-size: 14px;
+  color: #888;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+button {
+ 
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #888;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+button:disabled {
+  background-color: #dcdcdc;
+}
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
